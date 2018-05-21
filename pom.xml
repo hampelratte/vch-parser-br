@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>parser.br</artifactId>
     <packaging>bundle</packaging>
-    <version>2.0.1-SNAPSHOT</version>
+    <version>3.0.0-SNAPSHOT</version>
     <name>VCH BR Mediathek Parser</name>
     <description>Parser for free BR Mediathek at</description>
 
@@ -37,6 +37,13 @@
         <dependency>
             <groupId>de.berlios.vch</groupId>
             <artifactId>web</artifactId>
+            <type>bundle</type>
+            <scope>provided</scope>
+            <version>[1.0.0,2.0.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>de.berlios.vch</groupId>
+            <artifactId>json.support</artifactId>
             <type>bundle</type>
             <scope>provided</scope>
             <version>[1.0.0,2.0.0)</version>
